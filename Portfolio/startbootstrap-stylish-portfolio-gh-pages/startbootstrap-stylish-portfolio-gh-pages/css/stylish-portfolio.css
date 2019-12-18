@@ -45,6 +45,10 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.fa-heart {
+  color: red;
+}
+
 /* Map */
 .map {
   height: 30rem;
@@ -93,10 +97,18 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead2.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
+}
+
+.my-image {
+  position: absolute;
+  top: 7%;
+  left: 46%;
+  z-index: 2;
 }
 
 .masthead h1 {
