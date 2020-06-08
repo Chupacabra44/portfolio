@@ -224,7 +224,7 @@ h6 {
 }
 
 .callout {
-  padding: 15rem 0;
+  padding: 10% 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -284,9 +284,9 @@ h6 {
   }
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -294,14 +294,37 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(5%);
+    clip-path: inset(5%);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(2%);
+    clip-path: inset(2%);
   }
+}
+.card-text {
+  text-align: justify;
+}
+
+.card-a {
+  background-color: rgb(30, 203, 225);
+}
+
+.card-b {
+  background-color: rgba(30, 203, 225, 0.8);
+  
+}
+.card-c {
+  background-color: rgba(30, 203, 225, 0.6);
+}
+
+.btn-color {
+  background-color: rgba(136, 96, 208, 0.7);
+}
+.li-font {
+  font-size: smaller;
+  text-align: justify;
 }
 
 footer.footer {
