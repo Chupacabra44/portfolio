@@ -311,20 +311,27 @@ ul {
 padding: 0 6%;
 }
 
-.card-text {
+.card-group {
+  background-image: url("../img/card-back2.jpg");
+  border-image: fill;
+}
+
+.card-text, .card-title {
   text-align: justify;
 }
 
 .card-a {
-  background-color: rgb(30, 203, 225);
+  background-color: rgba(34, 220, 253, 0.5);
+  color: #FFFFFF;
 }
 
 .card-b {
-  background-color: rgba(30, 203, 225, 0.8);
-  
+  background-color: rgba(25, 173, 192, 0.5);
+  color: #FFFFFF;
 }
 .card-c {
-  background-color: rgba(30, 203, 225, 0.6);
+  background-color: rgba(19, 140, 156, 0.5);
+  color: #FFFFFF;
 }
 
 .btn-color {
