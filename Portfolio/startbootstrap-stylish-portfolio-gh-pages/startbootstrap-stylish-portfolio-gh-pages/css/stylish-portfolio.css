@@ -307,6 +307,19 @@ h6 {
   }
 }
 
+
+@media screen and (min-width: 601px) {
+  span.comtrade-scroll {
+    font-size: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.comtrade-scroll {
+    font-size: 80%;
+  }
+}
+
 ul {
 padding: 0 6%;
 }
